@@ -3,15 +3,15 @@ Randomly generated dance party
 
 We're using the MacOS scheduler launchctl to automatically (each day) run a python script that will launch a web browser and play a youtube video at a randomly generated time within the hours you select. Enjoy your dance party!
 
-How to set up launchctl:
+**_How to set up launchctl:_**
 
 1. Add the plist file containing the launchd script to ~/Library/LaunchAgents
-2. <load> the launchctl (see below)
-3. <start> the launchctl to test it
+2. **load** the launchctl (see below)
+3. **start** the launchctl to test it
 
 If you make changes to the plist file, you have to unload and reload.
 
-A few more notes:
+**_A few more notes:_**
 
 Apple provides launchctl to manage your agents. The main commands you need are
 * launchctl load ~/Library/LaunchAgents/org.dance-party.plist
