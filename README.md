@@ -1,5 +1,5 @@
 # random-dance-party
-Randomly generated dance party
+### Randomly generated dance party
 
 We're using the MacOS scheduler launchctl to automatically (each day) run a python script that will launch a web browser and play a youtube video at a randomly generated time within the hours you select. Enjoy your dance party!
 
